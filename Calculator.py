@@ -2,7 +2,7 @@
 def arithmetic_arranger(show_answers=True):
     question = 1
     while question != 0:
-        question = input("Enter the problems you would like to solve (+ or -) in the following format:\n21 + 3, 40 - 10, 80 + 20\nEnter 0 to exit\nProblem: ")
+        question = input("Enter the problems you would like to solve (+, -, *, /) in the following format:\n21 + 3, 40 - 10, 80 + 20\nEnter 0 to exit\nProblem: ")
         if question == str(0):
             return "Thank you for using the calculator!"
         problems = question.split(',')
